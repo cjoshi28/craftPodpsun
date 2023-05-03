@@ -101,7 +101,7 @@ fields:
       localizeRelations: false
       maintainHierarchy: false
       maxRelations: 1
-      minRelations: 1
+      minRelations: null
       previewMode: full
       restrictFiles: true
       restrictLocation: false
@@ -190,7 +190,7 @@ fields:
       localizeRelations: false
       maintainHierarchy: false
       maxRelations: 1
-      minRelations: 1
+      minRelations: null
       previewMode: full
       restrictFiles: true
       restrictLocation: false
