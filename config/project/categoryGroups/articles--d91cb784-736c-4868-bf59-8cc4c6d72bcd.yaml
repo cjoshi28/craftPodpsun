@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  9b2b402c-9945-4afc-b61e-ae8716ed4d99:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: d891440c-b633-4c26-8176-d2724884f5c0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e9130028-673f-4d13-be25-fe35973a69e2
+        userCondition: null
+handle: articles
+name: Articles
+siteSettings:
+  9f2120d1-04ae-459a-a917-c39f4bbfe29f: # Podspun
+    hasUrls: true
+    template: null
+    uriFormat: 'articles/{slug}'
+structure:
+  maxLevels: null
+  uid: 4870eaf3-a7cc-4102-b1f9-ea04811886e8

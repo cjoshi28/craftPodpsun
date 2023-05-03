@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homePage
+name: 'Home Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f2120d1-04ae-459a-a917-c39f4bbfe29f: # Podspun
+    enabledByDefault: true
+    hasUrls: true
+    template: home-page/_entry
+    uriFormat: home-page
+type: single

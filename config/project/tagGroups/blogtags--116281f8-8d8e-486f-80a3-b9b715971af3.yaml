@@ -1,0 +1,37 @@
+fieldLayouts:
+  a08f1542-d616-4995-9ff6-f1591e134908:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 43cfe849-6460-458f-a431-b6f588047274
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5f5b2dce-8678-4de3-b327-54b53de2572f
+        userCondition: null
+handle: blogtags
+name: BlogTags

@@ -1,0 +1,27 @@
+columnSuffix: hqboasky
+contentColumnType: text
+fieldGroup: 62684b62-dabb-4efa-a7b7-357639af804d # About Us
+handle: amplifyContent
+instructions: null
+name: 'Amplify Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

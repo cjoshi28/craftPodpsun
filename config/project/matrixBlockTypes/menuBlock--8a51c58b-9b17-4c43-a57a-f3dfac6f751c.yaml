@@ -1,0 +1,93 @@
+field: 918d0063-72eb-4494-8d6c-6ddfb176d5c7 # Menu Fields
+fieldLayouts:
+  c3c81461-6b12-4ac8-a6e0-fc5b9d5e92b0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 040714d3-bf19-4677-bafd-8b89c48c8753 # Page Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3071aa19-20a8-44bf-9eb0-6c8afa83d0d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6661dce4-bd48-4741-bd7a-ca43bfd54d78 # Page Slug
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81d2e024-7802-457d-b618-36891f738847
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4f78fea8-ba48-4249-a171-4416376e2adb
+        userCondition: null
+fields:
+  6661dce4-bd48-4741-bd7a-ca43bfd54d78: # Page Slug
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pageSlug
+    instructions: null
+    name: 'Page Slug'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  040714d3-bf19-4677-bafd-8b89c48c8753: # Page Name
+    columnSuffix: zlhkkewi
+    contentColumnType: text
+    fieldGroup: null
+    handle: pageName
+    instructions: null
+    name: 'Page Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: menuBlock
+name: 'Menu Block'
+sortOrder: 1

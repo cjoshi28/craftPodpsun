@@ -1,0 +1,48 @@
+fieldLayouts:
+  6ecd06a2-7ec9-42fe-b4b4-ed4026623a51:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aaf86587-397a-4a6d-9b1d-b1316b836b49 # Logo Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a8a7e34-e68e-4b4d-91be-2b80bd839244
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 918d0063-72eb-4494-8d6c-6ddfb176d5c7 # Menu Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b76fab1f-c49d-4563-8f25-59e811b1ab00
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3dae10d1-45c8-420b-875f-594929bb5b05 # Logo Image Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37b8c49c-f2b9-47be-9a42-4893e55e815f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 63f60387-9ca0-44d3-8a1a-c66ab37b9568
+        userCondition: null
+handle: siteHeader
+name: 'Site Header'
+sortOrder: 3

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1bd6fa17-75b5-4faf-8078-4448965ac607 # Help Center
+handle: forum
+instructions: null
+name: Forum
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_forum}}'
+  maxBlocks: null
+  minBlocks: 1
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

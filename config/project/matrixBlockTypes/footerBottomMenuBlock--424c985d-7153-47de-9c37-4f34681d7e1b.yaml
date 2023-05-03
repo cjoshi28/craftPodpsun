@@ -1,0 +1,93 @@
+field: 60d0c738-d232-40ac-bb65-97181bf97557 # Footer Bottom Menu
+fieldLayouts:
+  413942a0-0f79-423a-8b32-0970036bfc1f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 10b604e8-b4c0-4d32-b554-061dffdac3ef # Page Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20e5dc07-c0a4-456a-8f51-1de405c1b065
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a493bd94-f71b-485b-b724-2faf0da94498 # Page Slug
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2226481-533f-4a30-a7a5-f20b4b469841
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 50af60bb-8b73-4150-9582-425a4ab895df
+        userCondition: null
+fields:
+  10b604e8-b4c0-4d32-b554-061dffdac3ef: # Page Name
+    columnSuffix: njavwmbt
+    contentColumnType: text
+    fieldGroup: null
+    handle: pageName
+    instructions: null
+    name: 'Page Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a493bd94-f71b-485b-b724-2faf0da94498: # Page Slug
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pageSlug
+    instructions: null
+    name: 'Page Slug'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: footerBottomMenuBlock
+name: 'Footer Bottom Menu Block'
+sortOrder: 1

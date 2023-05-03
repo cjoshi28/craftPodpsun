@@ -1,0 +1,73 @@
+fieldLayouts:
+  e06adcdd-66c3-400e-a23f-d606a1c5e27c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0323af5f-de14-4c4f-a307-45ab2efd1b0d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2448128b-6797-437f-aa93-a9f9c621eaef # Section Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d0010875-b778-4037-a35d-97af9f60eb29
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bafcf4a4-d711-4456-ab40-5e10ded1e791
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0736e646-b125-4b28-b91f-685300e33cce # Seo Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7b719fb-262c-4f03-a3cc-7bd1d92af4b2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: 579ce016-5375-456a-b6c8-4e570af7bf46
+        userCondition: null
+handle: termsCondition
+hasTitleField: false
+name: 'Terms Condition'
+section: 08b8bb70-358d-4076-8cd0-7855edbc8f1a # Terms Condition
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

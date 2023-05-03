@@ -1,0 +1,19 @@
+columnSuffix: grolmodh
+contentColumnType: text
+fieldGroup: 390cb4bc-fa07-4c31-a62e-4c1d0c6f2f44 # Header/Footer
+handle: copyrightText
+instructions: null
+name: 'Copyright Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

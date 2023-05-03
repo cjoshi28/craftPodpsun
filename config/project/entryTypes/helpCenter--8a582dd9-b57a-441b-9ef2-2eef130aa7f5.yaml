@@ -1,0 +1,85 @@
+fieldLayouts:
+  7d106bc5-5498-498c-a12b-83a7a924f2d1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a21b8848-52d0-4fbc-8a36-c0c0a6a482ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e3ff44b3-f83b-4c78-8582-dca947852212 # Faq
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5b3e626-9327-4685-af2a-d61bb13d2376
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e5a1eb23-b0e3-4e1c-ac06-990a2edf2b4f # Forum
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ed3b1c6-24a2-4c59-9c5b-259c91916563
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 135784d1-5522-4ef0-bacd-5420f4214e26
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0736e646-b125-4b28-b91f-685300e33cce # Seo Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94616d7a-ac5b-4ba5-9222-dc54a040dabc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: d7add76b-3b05-418b-8bd7-2b7c7c24a6da
+        userCondition: null
+handle: helpCenter
+hasTitleField: false
+name: 'Help Center'
+section: 1829117a-0caf-43ec-b58b-815c2caf5ac9 # Help Center
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

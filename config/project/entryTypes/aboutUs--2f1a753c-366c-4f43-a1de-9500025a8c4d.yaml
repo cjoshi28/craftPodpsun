@@ -1,0 +1,133 @@
+fieldLayouts:
+  6b01cb1f-0741-4280-b267-3cd154483441:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 583ab413-6e4d-4759-83dc-43620403cd41
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a997afd0-f728-4efa-af7c-c75d9b27bbc3 # Hero Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c789850-fb4e-492d-9ac9-234fa490aa7f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8bb10e7c-d6c7-4502-b32d-4b23d352d22e # Hero Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75a422b3-a1dc-43cb-8f29-83dc438d5870
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ff607a0b-5d17-434b-a9b1-1f1ccd2eefbe # Amplify Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19fa824c-247a-4ccd-9754-5c2f6d85c015
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a4b8a94a-6f74-45b9-95ff-4a0b42ae9ea4 # Amplify Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eba775aa-b815-451e-93d5-f14b2862bd53
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5243cf70-6057-42f4-b486-a0bb33e9feb1 # Service Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: daf1d150-b73b-42ef-9e2e-91eec4023ebd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e8c62413-f2f8-4570-a50e-74587d5a6499 # Service Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7483843-83c3-450f-8816-0d8a723e3096
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3615aa3b-c953-487a-b2bb-c33355aeb4cd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0736e646-b125-4b28-b91f-685300e33cce # Seo Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dfefd87e-912a-485d-9d4a-9ddc7b5d0818
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: 3617ad30-1fae-464d-90b6-afe486f87381
+        userCondition: null
+handle: aboutUs
+hasTitleField: false
+name: 'About Us'
+section: 8cc3089c-bbb3-4c8c-95da-6b384d4a5af0 # About Us
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

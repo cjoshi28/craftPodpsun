@@ -1,0 +1,19 @@
+columnSuffix: ahlcxywx
+contentColumnType: text
+fieldGroup: 62684b62-dabb-4efa-a7b7-357639af804d # About Us
+handle: amplifyHeading
+instructions: null
+name: 'Amplify Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

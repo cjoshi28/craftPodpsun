@@ -1,0 +1,19 @@
+columnSuffix: opmcomqb
+contentColumnType: text
+fieldGroup: 1892f082-2bd4-4e23-93cb-c82faa5fd91c # Common
+handle: heroHeading
+instructions: null
+name: 'Hero Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

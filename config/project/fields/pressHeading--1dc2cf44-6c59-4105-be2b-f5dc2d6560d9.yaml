@@ -1,0 +1,19 @@
+columnSuffix: bwdumngl
+contentColumnType: text
+fieldGroup: 249bf954-717b-47a2-ae11-83c8a8404156 # Home Page
+handle: pressHeading
+instructions: null
+name: 'Press Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

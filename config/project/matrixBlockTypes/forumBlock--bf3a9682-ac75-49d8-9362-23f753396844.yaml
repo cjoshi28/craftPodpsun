@@ -1,0 +1,86 @@
+field: e5a1eb23-b0e3-4e1c-ac06-990a2edf2b4f # Forum
+fieldLayouts:
+  b92948d8-5388-4dc7-94dc-5e528b854085:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 08d164a5-feaf-4067-8cc0-583eb5d0fa94 # Question
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce334438-7a80-4f7a-819f-5c9d2cf0dbea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e22c46c4-cf03-40f2-b4ab-79ddfb7fe128 # Answer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49f7f0a8-f4e4-4f72-a5e5-165e9b7b7441
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8b05a260-6933-464d-969c-8c669845d511
+        userCondition: null
+fields:
+  08d164a5-feaf-4067-8cc0-583eb5d0fa94: # Question
+    columnSuffix: qzubrvde
+    contentColumnType: text
+    fieldGroup: null
+    handle: question
+    instructions: null
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e22c46c4-cf03-40f2-b4ab-79ddfb7fe128: # Answer
+    columnSuffix: nshomexu
+    contentColumnType: text
+    fieldGroup: null
+    handle: answer
+    instructions: null
+    name: Answer
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: forumBlock
+name: 'Forum Block'
+sortOrder: 1

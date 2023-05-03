@@ -1,0 +1,264 @@
+field: 0736e646-b125-4b28-b91f-685300e33cce # Seo Fields
+fieldLayouts:
+  0b62d272-827b-4829-a3c5-d3ef687e8828:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 60778b23-8b92-4daf-af14-05dd4d845642 # Seo Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42f67290-ca8f-439a-87e9-8edcf0abd10f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8326f21a-a7eb-4167-a558-862dc549a275 # Seo Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 16721e8a-b120-4584-8a52-d6252edb8da0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 758c5dc1-8fa2-4e08-89b0-634bee7c1d45 # Seo Og Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 442ab9e4-a56d-4983-9a78-6f5d3cddbd6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 46c95ba3-86b3-43a5-b19e-056b62f7d21e # Seo Og Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ccb5f6b6-137b-4f88-b4ef-a513630ddb04
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0812a65c-4061-469a-84c3-5c25400d5447 # Seo Og Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19dd5971-a4a5-4137-ab8b-96d944243c89
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6eb8b934-3838-492a-8e30-840fd7a16dad # Seo Twitter Card
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7dfd985d-ffc1-4320-8398-4710b86011b7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: adff2a2d-c5ed-44c8-b6bd-3a11ff3deef1
+        userCondition: null
+fields:
+  6eb8b934-3838-492a-8e30-840fd7a16dad: # Seo Twitter Card
+    columnSuffix: pkffydhf
+    contentColumnType: string
+    fieldGroup: null
+    handle: seoTwitterCard
+    instructions: null
+    name: 'Seo Twitter Card'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:57ff902d-0a4b-4848-b7a0-dace2d0b0c9b' # Seo Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:57ff902d-0a4b-4848-b7a0-dace2d0b0c9b' # Seo Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  46c95ba3-86b3-43a5-b19e-056b62f7d21e: # Seo Og Description
+    columnSuffix: teevykuw
+    contentColumnType: text
+    fieldGroup: null
+    handle: seoOgDescription
+    instructions: null
+    name: 'Seo Og Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  758c5dc1-8fa2-4e08-89b0-634bee7c1d45: # Seo Og Title
+    columnSuffix: tulxesba
+    contentColumnType: text
+    fieldGroup: null
+    handle: seoOgTitle
+    instructions: null
+    name: 'Seo Og Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0812a65c-4061-469a-84c3-5c25400d5447: # Seo Og Image
+    columnSuffix: dfxjpmrg
+    contentColumnType: string
+    fieldGroup: null
+    handle: seoOgImage
+    instructions: null
+    name: 'Seo Og Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:57ff902d-0a4b-4848-b7a0-dace2d0b0c9b' # Seo Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:57ff902d-0a4b-4848-b7a0-dace2d0b0c9b' # Seo Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  8326f21a-a7eb-4167-a558-862dc549a275: # Seo Description
+    columnSuffix: jluwwbiz
+    contentColumnType: text
+    fieldGroup: null
+    handle: seoDescription
+    instructions: null
+    name: 'Seo Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  60778b23-8b92-4daf-af14-05dd4d845642: # Seo Title
+    columnSuffix: yquyfvfb
+    contentColumnType: text
+    fieldGroup: null
+    handle: seoTitle
+    instructions: null
+    name: 'Seo Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: seoBlock
+name: 'Seo Block'
+sortOrder: 1

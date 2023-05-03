@@ -1,0 +1,72 @@
+fieldLayouts:
+  9a3296dd-eb7c-4a83-bbec-e591cdf175bc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a51c2a08-4307-47aa-907d-392df4f9a34e # Logo Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c90d5ec2-746b-4fd6-a598-f207b2ee3e36
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aaf86587-397a-4a6d-9b1d-b1316b836b49 # Logo Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c89d2a1e-fa2a-4055-80d9-6f82d8553ec5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1ef2e842-7069-4642-a638-eb60c85befe2 # Logo Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf40e141-9176-4392-a4db-f72e1a3b87cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 81b639db-0c4b-411a-90b9-c130764f196f # Copyright Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efedebc1-4103-4650-91cf-8f57023d65a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 60d0c738-d232-40ac-bb65-97181bf97557 # Footer Bottom Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a99e6c2-4b29-4d4a-9848-7b3a047d0e9e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8878b532-53da-4903-ae5d-6c38aaa3d707
+        userCondition: null
+handle: podcastFooter
+name: 'Podcast Footer'
+sortOrder: 4

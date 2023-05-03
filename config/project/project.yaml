@@ -1,0 +1,163 @@
+dateModified: 1683103229
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+        - type
+        - id
+        - dateCreated
+      type: native
+email:
+  fromEmail: cjoshi@awwgment.com
+  fromName: Podspun
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images'
+  seoImage:
+    hasUrls: true
+    name: 'Seo Image '
+    settings:
+      path: '@webroot/assets/images/seo'
+    type: craft\fs\Local
+    url: '@web/assets/images/seo'
+meta:
+  __names__:
+    0b34f6eb-e94e-4eee-99cd-52e753ac770c: 'Service Heading' # Service Heading
+    1bd6fa17-75b5-4faf-8078-4448965ac607: 'Help Center' # Help Center
+    1dc2cf44-6c59-4105-be2b-f5dc2d6560d9: 'Press Heading' # Press Heading
+    1ef2e842-7069-4642-a638-eb60c85befe2: 'Logo Content' # Logo Content
+    2c53a1a3-3dc6-482f-9ea8-8be70e7488a6: 'Benefit Section Heading' # Benefit Section Heading
+    2d544195-b4b0-46b6-93a9-a179fba98dab: 'Service Content' # Service Content
+    2f1a753c-366c-4f43-a1de-9500025a8c4d: 'About Us' # About Us
+    3dae10d1-45c8-420b-875f-594929bb5b05: 'Logo Image Icon' # Logo Image Icon
+    4bf4266f-b357-46cc-b49b-c34b3d7e5e7a: 'Twitter Url' # Twitter Url
+    4fffb709-b4db-4f93-8f04-8a44ac4f9dd1: Answer # Answer
+    5d2c4cab-49b6-4b91-b5c4-40e100c4593d: 'Top Podcast Block' # Top Podcast Block
+    5f6f4f96-8606-4086-a0eb-a82247f8b23e: PressBlock # PressBlock
+    5f20b2d7-2cff-4088-8b97-6e8976ae0f25: 'Press Name' # Press Name
+    6b1539c6-df11-473d-86c7-114480a6410c: 'Section Heading' # Section Heading
+    6eb8b934-3838-492a-8e30-840fd7a16dad: 'Seo Twitter Card' # Seo Twitter Card
+    7d1ff69c-6ab9-46ca-8538-1b3c002bb86d: 'Amplify Content' # Amplify Content
+    8a51c58b-9b17-4c43-a57a-f3dfac6f751c: 'Menu Block' # Menu Block
+    8a582dd9-b57a-441b-9ef2-2eef130aa7f5: 'Help Center' # Help Center
+    8a9547e7-b6f8-4714-badd-d12ef160397c: Benefits # Benefits
+    08b8bb70-358d-4076-8cd0-7855edbc8f1a: 'Terms Condition' # Terms Condition
+    8bb10e7c-d6c7-4502-b32d-4b23d352d22e: 'Hero Content' # Hero Content
+    8c216d4d-86c6-4901-ac88-527d9a7d4ceb: 'Get Started' # Get Started
+    8cc3089c-bbb3-4c8c-95da-6b384d4a5af0: 'About Us' # About Us
+    08d164a5-feaf-4067-8cc0-583eb5d0fa94: Question # Question
+    9c9804f1-9c0b-45b4-a062-c00bf4d4737d: 'Hero Content' # Hero Content
+    9f2120d1-04ae-459a-a917-c39f4bbfe29f: Podspun # Podspun
+    10b604e8-b4c0-4d32-b554-061dffdac3ef: 'Page Name' # Page Name
+    19b149d5-0c68-4100-bff5-0ec7393a8d31: 'Hero Content' # Hero Content
+    19f85536-fa8c-4573-bf28-65c9e8086be5: 'Cookie Policy' # Cookie Policy
+    21a2a9d5-2d9c-491c-9329-65c7bcbe2dce: 'Hero Heading' # Hero Heading
+    26dc3c4a-3cad-43f7-895d-1fbda1e955e0: 'Instagram Url' # Instagram Url
+    35ef65e5-44db-4066-a3d0-137378e74be3: 'Site Header' # Site Header
+    41fe3bdd-3f5c-4af3-962a-eedc09c933bd: 'Top Podcast Name' # Top Podcast Name
+    46c95ba3-86b3-43a5-b19e-056b62f7d21e: 'Seo Og Description' # Seo Og Description
+    047e3253-b59f-4e46-9155-607f23d4547b: 'Page Name' # Page Name
+    51c9e0c1-aa98-45b5-8275-0e325f868e1b: 'Press Content' # Press Content
+    57ff902d-0a4b-4848-b7a0-dace2d0b0c9b: 'Seo Images' # Seo Images
+    60d0c738-d232-40ac-bb65-97181bf97557: 'Footer Bottom Menu' # Footer Bottom Menu
+    72bab1d0-dc28-46e1-bbfb-2b7be84c5c1f: 'Seo Block' # Seo Block
+    81b639db-0c4b-411a-90b9-c130764f196f: 'Copyright Text' # Copyright Text
+    249bf954-717b-47a2-ae11-83c8a8404156: 'Home Page' # Home Page
+    264cda15-2932-4a8f-b484-2a80266750c2: 'Footer Side Menu' # Footer Side Menu
+    390cb4bc-fa07-4c31-a62e-4c1d0c6f2f44: Header/Footer # Header/Footer
+    424c985d-7153-47de-9c37-4f34681d7e1b: 'Footer Bottom Menu Block' # Footer Bottom Menu Block
+    566ec379-4bb4-49eb-9448-9bafe9f1f122: 'Benefits Block' # Benefits Block
+    0736e646-b125-4b28-b91f-685300e33cce: 'Seo Fields' # Seo Fields
+    758c5dc1-8fa2-4e08-89b0-634bee7c1d45: 'Seo Og Title' # Seo Og Title
+    0812a65c-4061-469a-84c3-5c25400d5447: 'Seo Og Image' # Seo Og Image
+    918d0063-72eb-4494-8d6c-6ddfb176d5c7: 'Menu Fields' # Menu Fields
+    997efc4e-5070-45ea-80a3-eb3f20c1b480: 'Home Page' # Home Page
+    01239f8a-12e9-4e25-be2e-a7bb2dfba484: 'Cookie Policy' # Cookie Policy
+    1892f082-2bd4-4e23-93cb-c82faa5fd91c: Common # Common
+    3248c17c-cc92-47f8-826f-90c8c4813952: 'Top Podcast Content' # Top Podcast Content
+    5243cf70-6057-42f4-b486-a0bb33e9feb1: 'Service Heading' # Service Heading
+    6661dce4-bd48-4741-bd7a-ca43bfd54d78: 'Page Slug' # Page Slug
+    8326f21a-a7eb-4167-a558-862dc549a275: 'Seo Description' # Seo Description
+    12392b69-76a4-4202-b005-67bb03c6d05a: 'Site Footer' # Site Footer
+    25660e4c-a460-417a-ba2b-a81b779cf180: 'Get Started' # Get Started
+    040714d3-bf19-4677-bafd-8b89c48c8753: 'Page Name' # Page Name
+    47921d7a-d041-4773-af06-cc7aaf122078: Podspun # Podspun
+    60778b23-8b92-4daf-af14-05dd4d845642: 'Seo Title' # Seo Title
+    62684b62-dabb-4efa-a7b7-357639af804d: 'About Us' # About Us
+    116281f8-8d8e-486f-80a3-b9b715971af3: BlogTags # BlogTags
+    1829117a-0caf-43ec-b58b-815c2caf5ac9: 'Help Center' # Help Center
+    2448128b-6797-437f-aa93-a9f9c621eaef: 'Section Content' # Section Content
+    66634680-c9b9-4059-b513-e15705d120e2: Seo # Seo
+    a4b8a94a-6f74-45b9-95ff-4a0b42ae9ea4: 'Amplify Content' # Amplify Content
+    a51c2a08-4307-47aa-907d-392df4f9a34e: 'Logo Heading' # Logo Heading
+    a95a8013-86df-4a76-b8c4-1450ed0e898f: 'Faq Block' # Faq Block
+    a493bd94-f71b-485b-b724-2faf0da94498: 'Page Slug' # Page Slug
+    a997afd0-f728-4efa-af7c-c75d9b27bbc3: 'Hero Heading' # Hero Heading
+    aaf86587-397a-4a6d-9b1d-b1316b836b49: 'Logo Image' # Logo Image
+    ad3e5838-4c3a-4cc3-be85-ce8fe2a9a4a4: 'Home Page' # Home Page
+    afc1513b-2bc6-44e7-9343-290ff6589b01: Benefits # Benefits
+    bf3a9682-ac75-49d8-9362-23f753396844: 'Forum Block' # Forum Block
+    c41ed433-c02e-415c-bcb4-0e5deea3de03: 'Footer Side Menu Block' # Footer Side Menu Block
+    c51f1077-26dd-40c6-93f6-61943724220f: 'Public Schema' # Public Schema
+    c5340ba1-61b9-426e-b110-92647c8e68c8: 'Podcast Footer' # Podcast Footer
+    cd57f38c-008a-40e6-bf57-579eaa50b868: 'Top Podcast Url' # Top Podcast Url
+    cd8232e9-4d4d-4411-aaab-a064de639604: 'Get Started' # Get Started
+    d60b2ef1-14fe-4429-86e1-2643401d41cf: 'Page Slug' # Page Slug
+    d75c5327-7c3a-491f-a813-a03478b03289: 'Top Podcast Heading' # Top Podcast Heading
+    d91cb784-736c-4868-bf59-8cc4c6d72bcd: Articles # Articles
+    d96a1f0a-183e-4b79-b347-4ff9c88d1578: Question # Question
+    d271af47-dac1-4c2c-bfcb-ebb77e885b03: Images # Images
+    d46891d5-fe69-48ab-a028-ca1b8a9e4ed8: 'Contact Email' # Contact Email
+    de1f4d52-32ed-4931-a41f-1e0264d0cbb2: 'Terms Condition' # Terms Condition
+    e0f71469-3dcf-496c-8bf9-7162acf93f13: 'Benefit Section Heading' # Benefit Section Heading
+    e3ff44b3-f83b-4c78-8582-dca947852212: Faq # Faq
+    e5a1eb23-b0e3-4e1c-ac06-990a2edf2b4f: Forum # Forum
+    e8c62413-f2f8-4570-a50e-74587d5a6499: 'Service Content' # Service Content
+    e22c46c4-cf03-40f2-b4ab-79ddfb7fe128: Answer # Answer
+    eb0daf42-7298-4d0e-8373-3e3a7adb23bb: Text # Text
+    fab1f75a-96fc-40e1-84b1-3181300daa55: 'Amplify Heading' # Amplify Heading
+    fb28133c-dfe6-4a80-b7a3-45daac2afa06: 'Hero Heading' # Hero Heading
+    fc76696d-3b3f-4e74-827f-f6b10458960c: 'Press Url' # Press Url
+    ff607a0b-5d17-434b-a9b1-1f1ccd2eefbe: 'Amplify Heading' # Amplify Heading
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: Podspun
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

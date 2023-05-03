@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 25660e4c-a460-417a-ba2b-a81b779cf180 # Get Started
+handle: benefits
+instructions: 'This is for Get Started Page'
+name: Benefits
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_benefits}}'
+  maxBlocks: 4
+  minBlocks: 4
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

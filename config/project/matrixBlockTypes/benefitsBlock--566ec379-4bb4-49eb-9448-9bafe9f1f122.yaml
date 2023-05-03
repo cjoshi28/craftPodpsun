@@ -1,0 +1,54 @@
+field: 8a9547e7-b6f8-4714-badd-d12ef160397c # Benefits
+fieldLayouts:
+  cd0d37bc-2428-4a52-acc7-ff814bcb6fad:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: eb0daf42-7298-4d0e-8373-3e3a7adb23bb # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 817ef9ff-3451-45c3-a0ec-0b15c41d7b6f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 36178788-2bc2-4682-8de0-6f4653270120
+        userCondition: null
+fields:
+  eb0daf42-7298-4d0e-8373-3e3a7adb23bb: # Text
+    columnSuffix: qxwmkorg
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: benefitsBlock
+name: 'Benefits Block'
+sortOrder: 1

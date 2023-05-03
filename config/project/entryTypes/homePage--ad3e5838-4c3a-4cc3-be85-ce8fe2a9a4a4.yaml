@@ -1,0 +1,133 @@
+fieldLayouts:
+  dda7f8f3-36b0-4c8a-b4eb-204c72f0c051:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e818fa1c-fae1-464a-99a9-ca39078d389a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a997afd0-f728-4efa-af7c-c75d9b27bbc3 # Hero Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d63cfe9-f12d-4038-9afa-f36391723cb2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1dc2cf44-6c59-4105-be2b-f5dc2d6560d9 # Press Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7db77b2-2000-48e3-8ce5-97a9a00f0958
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 51c9e0c1-aa98-45b5-8275-0e325f868e1b # Press Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c82777c7-ee9a-4c44-93ca-1c20c4b8e3cd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b1539c6-df11-473d-86c7-114480a6410c # Section Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d201833-6f98-420b-9171-9153f886b049
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d75c5327-7c3a-491f-a813-a03478b03289 # Top Podcast Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db94d280-2673-4c0b-8fa9-6e81a1097394
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3248c17c-cc92-47f8-826f-90c8c4813952 # Top Podcast Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2915a930-698f-4dd7-b12f-af8793bda96e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ec4ff330-c833-4f87-babb-5d347dc7fa81
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0736e646-b125-4b28-b91f-685300e33cce # Seo Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 208c64b8-d001-459f-ad1b-21d5e5c5d6f2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: 728e2bef-1c23-4c8c-beaf-fa294479108b
+        userCondition: null
+handle: homePage
+hasTitleField: false
+name: 'Home Page'
+section: 997efc4e-5070-45ea-80a3-eb3f20c1b480 # Home Page
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

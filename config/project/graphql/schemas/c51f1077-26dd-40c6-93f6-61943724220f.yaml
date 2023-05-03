@@ -1,0 +1,23 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.8cc3089c-bbb3-4c8c-95da-6b384d4a5af0:read' # About Us
+  - 'entrytypes.2f1a753c-366c-4f43-a1de-9500025a8c4d:read' # About Us
+  - 'sections.01239f8a-12e9-4e25-be2e-a7bb2dfba484:read' # Cookie Policy
+  - 'entrytypes.19f85536-fa8c-4573-bf28-65c9e8086be5:read' # Cookie Policy
+  - 'sections.cd8232e9-4d4d-4411-aaab-a064de639604:read' # Get Started
+  - 'entrytypes.8c216d4d-86c6-4901-ac88-527d9a7d4ceb:read' # Get Started
+  - 'sections.1829117a-0caf-43ec-b58b-815c2caf5ac9:read' # Help Center
+  - 'entrytypes.8a582dd9-b57a-441b-9ef2-2eef130aa7f5:read' # Help Center
+  - 'sections.997efc4e-5070-45ea-80a3-eb3f20c1b480:read' # Home Page
+  - 'entrytypes.ad3e5838-4c3a-4cc3-be85-ce8fe2a9a4a4:read' # Home Page
+  - 'sections.25df857f-05d0-4fdd-b6a0-617c99bf0936:read'
+  - 'entrytypes.c381c2fb-2288-4e0c-b1ef-3b4c7e2cfce9:read'
+  - 'sections.6caf374d-d5af-4784-a877-0d4b8b7ea93b:read'
+  - 'entrytypes.e1ec42fe-96f8-442a-b51b-0f06b2ddf20e:read'
+  - 'sections.552fe1c8-e3b6-4397-9d4b-107da9cce4c5:read'
+  - 'entrytypes.0d73af44-575a-44c7-b815-fb27d25c8da7:read'
+  - 'sections.08b8bb70-358d-4076-8cd0-7855edbc8f1a:read' # Terms Condition
+  - 'entrytypes.de1f4d52-32ed-4931-a41f-1e0264d0cbb2:read' # Terms Condition
+  - 'volumes.57ff902d-0a4b-4848-b7a0-dace2d0b0c9b:read' # Seo Images
+  - 'volumes.d271af47-dac1-4c2c-bfcb-ebb77e885b03:read' # Images

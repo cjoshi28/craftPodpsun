@@ -1,0 +1,19 @@
+columnSuffix: ihwohnmo
+contentColumnType: text
+fieldGroup: 25660e4c-a460-417a-ba2b-a81b779cf180 # Get Started
+handle: benefitSectionHeading
+instructions: null
+name: 'Benefit Section Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
