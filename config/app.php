@@ -31,16 +31,16 @@ return [
     'bootstrap' => [
         'json'
     ],
-    // 'components' => [
-    //     // Other components
-    //     'response' => [
-    //         'on beforeSend' => function ($event) {
-    //             $response = $event->sender;
-    //             $response->headers->set('Access-Control-Allow-Origin', '*');
-    //             $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-    //             $response->headers->set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    //         },
-    //     ],
-    // ],
+    'components' => [
+        // Other components
+        'response' => [
+            'on beforeSend' => function ($event) {
+                $response = $event->sender;
+                $response->headers->set('Access-Control-Allow-Origin', '*');
+                $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+                $response->headers->set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+            },
+        ],
+    ],
 ];
 
