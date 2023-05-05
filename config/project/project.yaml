@@ -1,4 +1,4 @@
-dateModified: 1683117538
+dateModified: 1683262437
 elementSources:
   craft\elements\Entry:
     -
@@ -62,6 +62,7 @@ meta:
     5f20b2d7-2cff-4088-8b97-6e8976ae0f25: 'Press Name' # Press Name
     6b1539c6-df11-473d-86c7-114480a6410c: 'Section Heading' # Section Heading
     6eb8b934-3838-492a-8e30-840fd7a16dad: 'Seo Twitter Card' # Seo Twitter Card
+    7bc1f738-c197-43ca-a576-76e6352fca9f: 'Manual Slug' # Manual Slug
     7d1ff69c-6ab9-46ca-8538-1b3c002bb86d: 'Amplify Content' # Amplify Content
     8a51c58b-9b17-4c43-a57a-f3dfac6f751c: 'Menu Block' # Menu Block
     8a582dd9-b57a-441b-9ef2-2eef130aa7f5: 'Help Center' # Help Center
@@ -70,10 +71,12 @@ meta:
     8bb10e7c-d6c7-4502-b32d-4b23d352d22e: 'Hero Content' # Hero Content
     8c216d4d-86c6-4901-ac88-527d9a7d4ceb: 'Get Started' # Get Started
     8cc3089c-bbb3-4c8c-95da-6b384d4a5af0: 'About Us' # About Us
+    8d4bb084-f75b-41a4-95d1-f26ba4fe7d55: 'Manual Slug' # Manual Slug
     08d164a5-feaf-4067-8cc0-583eb5d0fa94: Question # Question
     9c9804f1-9c0b-45b4-a062-c00bf4d4737d: 'Hero Content' # Hero Content
     9f2120d1-04ae-459a-a917-c39f4bbfe29f: Podspun # Podspun
     10b604e8-b4c0-4d32-b554-061dffdac3ef: 'Page Name' # Page Name
+    11c2ba31-ef1f-4c37-af79-1d5017d9a8bd: 'Manual Slug' # Manual Slug
     19b149d5-0c68-4100-bff5-0ec7393a8d31: 'Hero Content' # Hero Content
     19f85536-fa8c-4573-bf28-65c9e8086be5: 'Cookie Policy' # Cookie Policy
     21a2a9d5-2d9c-491c-9329-65c7bcbe2dce: 'Hero Heading' # Hero Heading

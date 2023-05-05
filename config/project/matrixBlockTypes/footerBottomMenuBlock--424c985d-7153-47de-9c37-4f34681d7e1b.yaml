@@ -22,10 +22,22 @@ fieldLayouts:
             fieldUid: a493bd94-f71b-485b-b724-2faf0da94498 # Page Slug
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: a2226481-533f-4a30-a7a5-f20b4b469841
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d4bb084-f75b-41a4-95d1-f26ba4fe7d55 # Manual Slug
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d92dc267-6e16-4254-9825-51bc6804706c
             userCondition: null
             warning: null
             width: 100
@@ -33,6 +45,26 @@ fieldLayouts:
         uid: 50af60bb-8b73-4150-9582-425a4ab895df
         userCondition: null
 fields:
+  8d4bb084-f75b-41a4-95d1-f26ba4fe7d55: # Manual Slug
+    columnSuffix: xhlmewrv
+    contentColumnType: text
+    fieldGroup: null
+    handle: manualSlug
+    instructions: 'Fill Manual slug for frontend page, which already designed there and have their route in frontend'
+    name: 'Manual Slug'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   10b604e8-b4c0-4d32-b554-061dffdac3ef: # Page Name
     columnSuffix: njavwmbt
     contentColumnType: text
@@ -67,7 +99,7 @@ fields:
       localizeRelations: false
       maintainHierarchy: false
       maxRelations: 1
-      minRelations: 1
+      minRelations: null
       selectionCondition:
         __assoc__:
           -
@@ -80,7 +112,7 @@ fields:
             - class
             - craft\elements\conditions\entries\EntryCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       sources: '*'
       targetSiteId: null
       validateRelatedElements: false

@@ -22,10 +22,22 @@ fieldLayouts:
             fieldUid: d60b2ef1-14fe-4429-86e1-2643401d41cf # Page Slug
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 93d8d477-415b-4c73-afdc-fc7a927396d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 11c2ba31-ef1f-4c37-af79-1d5017d9a8bd # Manual Slug
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8b263af5-7571-4f69-946f-70d5f413937e
             userCondition: null
             warning: null
             width: 100
@@ -33,6 +45,26 @@ fieldLayouts:
         uid: 527503d1-2d52-4d9a-8f89-68e58da5aa12
         userCondition: null
 fields:
+  11c2ba31-ef1f-4c37-af79-1d5017d9a8bd: # Manual Slug
+    columnSuffix: wggxvqjs
+    contentColumnType: text
+    fieldGroup: null
+    handle: manualSlug
+    instructions: 'Fill Manual slug for frontend page, which already designed there and have their route in frontend'
+    name: 'Manual Slug'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   047e3253-b59f-4e46-9155-607f23d4547b: # Page Name
     columnSuffix: fxrhmssz
     contentColumnType: text
@@ -67,7 +99,7 @@ fields:
       localizeRelations: false
       maintainHierarchy: false
       maxRelations: 1
-      minRelations: 1
+      minRelations: null
       selectionCondition:
         __assoc__:
           -
